@@ -20,7 +20,7 @@ id	PC1	PC2	PC3	PC4	status	continent
 4	.021	0.45	-0.10	0.56	control	Asia
 
 # Running SPACE locally (Windows)
-# 1) Put ui.R and server.R into a directory, e.g. C:\Users\nberkowitz\R_projects\shiny_pca
+# 1) Put ui.R and server.R into a directory, e.g. C:\Users\nberkowitz\R_projects\SPACE
 
 # 2) Open an R shell
 > install.packages("shiny") # only needs to be run once
@@ -28,7 +28,7 @@ id	PC1	PC2	PC3	PC4	status	continent
 
 > setwd("C:\Users\nberkowitz\R_projects\") # navigate to the parent of your new directory
 
-> runApp("shiny_pca")
+> runApp("SPACE")
 
 # A browser window should open with SPACE running.
 
@@ -58,7 +58,7 @@ id	PC1	PC2	PC3	PC4	status	continent
 # put ui.R and server.R in the new directory
 
 #4) Navigate to to your server in a browser. By default shiny server runs on port 3838
-http://127.0.0.1:3838/shiny_pca/
+http://127.0.0.1:3838/SPACE/
 
 #5) Done! If you want to edit the code, just save and refresh to see your changes
 
