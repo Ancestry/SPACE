@@ -20,7 +20,7 @@ id	PC1	PC2	PC3	PC4	status	continent
 4	.021	0.45	-0.10	0.56	control	Asia
 
 # Running SPACE locally (Windows)
-# 1) Put ui.R and server.R into a directory, e.g. C:\Users\nberkowitz\R_projects\SPACE
+# 1) Put ui.R and server.R into a directory, e.g. C:\Users\nberkowitz\R_projects\SPACE-master
 
 # 2) Open an R shell
 > install.packages("shiny") # only needs to be run once
@@ -28,9 +28,12 @@ id	PC1	PC2	PC3	PC4	status	continent
 
 > setwd("C:\Users\nberkowitz\R_projects\") # navigate to the parent of your new directory
 
-> runApp("SPACE")
+> runApp("SPACE-master")
 
 # A browser window should open with SPACE running.
+
+# 3) Load an example file (optional)
+# example.txt has some approximate PCA results from public data sources
 
 
 # Running SPACE on a server
