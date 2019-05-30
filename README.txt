@@ -19,6 +19,12 @@ id	PC1	PC2	PC3	PC4	status	continent
 3	.093	0.23	-0.33	0.13	case	Australia
 4	.021	0.45	-0.10	0.56	control	Asia
 
+
+# Running SPACE from this GitHub repo
+1) Open an R session
+> library(shiny)
+> runGitHub("SPACE", "Ancestry")
+
 # Running SPACE locally (Windows)
 # 1) Put ui.R and server.R into a directory, e.g. C:\Users\nberkowitz\R_projects\SPACE-master
 
