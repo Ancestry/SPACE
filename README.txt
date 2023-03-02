@@ -19,6 +19,12 @@ id	PC1	PC2	PC3	PC4	status	continent
 3	.093	0.23	-0.33	0.13	case	Australia
 4	.021	0.45	-0.10	0.56	control	Asia
 
+# Running space from GitHub
+# 1) Open an RStudio session
+install.packages("shiny") # This step only needs to be run the first time
+library(shiny)
+runGitHub("nberkow/SPACE")
+
 # Running SPACE locally (Windows)
 # 1) Put ui.R and server.R into a directory, e.g. C:\Users\nberkowitz\R_projects\SPACE-master
 
